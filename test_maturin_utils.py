@@ -1,9 +1,9 @@
-import inline_maturin
+import maturin_utils
 
 def test_build():
 
     # ビルド
-    inline_maturin.build_maturin_project('pymodtest')
+    maturin_utils.build_maturin_project('pymodtest')
 
     # 関数のチェック
     import pymodtest
